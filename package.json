@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is my learning of Namaste-React",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusharjolly21/Namaste-React.git"
+  },
+  "author": "Tushar Jolly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tusharjolly21/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Tusharjolly21/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
