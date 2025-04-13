@@ -14,4 +14,4 @@
 - Differential Bundling - support older browsers
 - Better Error Handling
 - Host your app on https
-- Tree shaking Algorithm
+- Tree shaking Algorithm - remove unused code for us
