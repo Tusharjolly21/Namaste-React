@@ -3,6 +3,7 @@
   justify-content: space-between;
   border: 1px solid black;
   border-radius: 10px;
+  background-color: black;
 }
 .logo {
   width: 200px;
@@ -16,9 +17,12 @@
   margin: 50px 20px;
   font-size: 20px;
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: grey;
 }
 .body {
-  margin-top: 50px;
+  margin-top: 20px;
+  background-color: #f0f0f0;
 }
 .filter {
   display: flex;
@@ -26,9 +30,10 @@
   align-items: center;
 }
 .filter-btn {
-  width: 200px;
+  width: 300px;
   height: 40px;
   cursor: pointer;
+  font-size: 20px;
 }
 .res-card {
   margin-top: 50px;
@@ -133,10 +138,49 @@
   height: 40px;
   border-radius: 5px;
   border: 1px solid black;
+  font-size: 20px;
 }
 .search-btn {
   margin-left: 10px;
   width: 100px;
   height: 45px;
   cursor: pointer;
+  font-size: 20px;
+}
+.res-card-info > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.res-card-info > p {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.link-tag {
+  text-decoration: none;
+  color: grey;
+}
+.link-tag:hover {
+  font-size: 21px;
+  color: white;
+}
+.res-menu {
+  font-family: "verdana", sans-serif;
+  margin-left: 40%;
+  margin-right: 35%;
+}
+.res-rating {
+  display: flex;
+  justify-content: space-between;
+}
+.res-cuisines {
+  text-decoration: underline;
+}
+.res-all {
+  color: black;
+  text-decoration: none;
+}
+.res-all:hover {
+  color: grey;
 }
